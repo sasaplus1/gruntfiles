@@ -7,4 +7,3 @@ module.exports =
       base: 'public/'
       hostname: '*'
       livereload: true
-      keepalive: true
