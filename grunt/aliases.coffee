@@ -7,3 +7,7 @@ module.exports =
   minify: [
     'uglify:js-minify'
   ]
+
+  server: [
+    'connect'
+  ]
