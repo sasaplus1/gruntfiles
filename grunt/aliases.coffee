@@ -1,5 +1,9 @@
 module.exports =
 
+  compile: [
+    'jade:develop'
+  ]
+
   concat: [
     'uglify:js-concat'
   ]
