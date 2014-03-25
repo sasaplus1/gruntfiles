@@ -2,6 +2,7 @@ module.exports =
 
   compile: [
     'jade:develop'
+    'stylus:develop'
   ]
 
   concat: [
