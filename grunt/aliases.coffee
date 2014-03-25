@@ -11,3 +11,8 @@ module.exports =
   server: [
     'connect:keepalive'
   ]
+
+  watch: [
+    'connect'
+    'esteWatch'
+  ]
