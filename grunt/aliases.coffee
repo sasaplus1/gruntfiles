@@ -5,12 +5,14 @@ module.exports =
     'stylus:develop'
   ]
 
-  concat: [
-    'uglify:js-concat'
+  cat: [
+    'concat:normal-wrap'
+    'uglify:develop'
   ]
 
-  minify: [
-    'uglify:js-minify'
+  min: [
+    'concat:normal-wrap'
+    'uglify:release'
   ]
 
   server: [

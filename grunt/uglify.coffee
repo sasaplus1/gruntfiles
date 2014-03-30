@@ -4,8 +4,8 @@ module.exports =
 
   develop:
     files:
-      'public/index.cat.js': [
-        'source/**/*.js'
+      'public/index.min.js': [
+        'public/index.cat.js'
       ]
     options:
       beautify: true
@@ -14,7 +14,7 @@ module.exports =
   release:
     files:
       'public/index.min.js': [
-        'source/**/*.js'
+        'public/index.cat.js'
       ]
     options:
       compress: true
