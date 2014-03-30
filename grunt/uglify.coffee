@@ -2,7 +2,7 @@ module.exports =
 
   # https://github.com/gruntjs/grunt-contrib-uglify
 
-  'js-concat':
+  develop:
     files:
       'public/index.cat.js': [
         'source/**/*.js'
@@ -11,7 +11,7 @@ module.exports =
       beautify: true
       sourceMap: true
 
-  'js-minify':
+  release:
     files:
       'public/index.min.js': [
         'source/**/*.js'
