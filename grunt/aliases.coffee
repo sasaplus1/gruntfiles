@@ -25,5 +25,9 @@ module.exports =
   ]
 
   install: [
-    'bower'
+    'bower:init'
+  ]
+
+  test: [
+    'bower:test'
   ]

@@ -4,5 +4,9 @@
   "exportsOverride": {
   },
   "dependencies": {
+  },
+  "devDependencies": {
+    "expect": "~0.3",
+    "mocha": "~1.18"
   }
 }

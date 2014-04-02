@@ -1,5 +1,8 @@
 {
   "private": true,
+  "scripts": {
+    "test": "testem"
+  },
   "devDependencies": {
     "grunt": "~0.4",
     "grunt-bower-task": "~0.3",
@@ -10,6 +13,7 @@
     "grunt-contrib-stylus": "~0.13",
     "grunt-contrib-uglify": "~0.4",
     "grunt-este-watch": "~0.1",
-    "load-grunt-config": "~0.7"
+    "load-grunt-config": "~0.7",
+    "testem": "~0.6"
   }
 }

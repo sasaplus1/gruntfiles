@@ -3,5 +3,7 @@ bower_components/
 node_modules/
 public/*
 source/*
+test/*
 !public/.gitkeep
 !source/.gitkeep
+!test/index.html
