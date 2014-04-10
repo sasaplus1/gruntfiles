@@ -3,8 +3,10 @@ module.exports =
   # https://github.com/gruntjs/grunt-contrib-concat
 
   'normal-wrap':
-    dest: 'public/index.cat.js'
-    src: 'source/**/*.js'
+    files:
+      'public/index.cat.js': [
+        'source/**/*.js'
+      ]
     options:
       banner:
         '''
@@ -17,8 +19,10 @@ module.exports =
         '''
 
   'strict-wrap':
-    dest: 'public/index.cat.js'
-    src: 'source/**/*.js'
+    files:
+      'public/index.cat.js': [
+        'source/**/*.js'
+      ]
     options:
       banner:
         '''
