@@ -3,24 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../bower_components/mocha/mocha.css">
     <title>test</title>
+    <link rel="stylesheet" href="../bower_components/mocha/mocha.css">
   </head>
   <body>
     <div id="mocha"></div>
+    <!-- requires -->
     <script src="../bower_components/expect/index.js"></script>
     <script src="../bower_components/mocha/mocha.js"></script>
     <script src="../bower_components/sinon/index.js"></script>
+    <!-- mocha settings -->
+    <script>mocha.setup('bdd');</script>
+    <!-- testem -->
     <script src="/testem.js"></script>
-    <script>
-      mocha.setup('bdd');
-    </script>
-    <!-- test scripts -->
+    <!-- test target -->
     <script></script>
-    <!-- /test scripts -->
+    <!-- test units -->
+    <script></script>
+    <!-- mocha settings -->
     <script>
       mocha.checkLeaks();
-      mocha.globals([]);
+      mocha.globals([
+      ]);
       mocha.run();
     </script>
   </body>
