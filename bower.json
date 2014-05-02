@@ -1,13 +1,13 @@
 {
   "name": "-",
   "private": true,
-  "exportsOverride": {
-  },
   "dependencies": {
   },
   "devDependencies": {
     "expect": "~0.3",
     "mocha": "~1.18",
     "sinon": "http://sinonjs.org/releases/sinon-1.9.1.js"
+  },
+  "exportsOverride": {
   }
 }
