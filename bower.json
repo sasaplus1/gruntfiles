@@ -4,8 +4,8 @@
   "dependencies": {
   },
   "devDependencies": {
-    "expect": "~0.3",
-    "mocha": "~1.18",
+    "expect": "~0.3.1",
+    "mocha": "~1.18.2",
     "sinon": "http://sinonjs.org/releases/sinon-1.9.1.js"
   },
   "exportsOverride": {
