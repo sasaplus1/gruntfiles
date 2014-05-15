@@ -1,7 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "preinstall": "bower install",
     "test": "testem"
   },
   "devDependencies": {
