@@ -25,4 +25,3 @@ module.exports =
         path.join(dest, matchSrcPath.replace('source/', ''))
       src: 'source/**/!(_)*.styl'
     ]
-
