@@ -30,4 +30,5 @@ module.exports =
 
   test: [
     'bower:test'
+    'testem:run:main'
   ]
