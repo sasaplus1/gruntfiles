@@ -11,5 +11,5 @@ module.exports =
 
   test:
     options:
-      copy: false
       layout: 'byComponent'
+      targetDir: 'test/lib/'
