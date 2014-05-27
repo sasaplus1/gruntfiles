@@ -1,5 +1,3 @@
-grunt = require 'grunt'
-
 module.exports =
 
   # https://github.com/steida/grunt-este-watch
@@ -13,20 +11,12 @@ module.exports =
       extensions: [
         'js'
         'jade'
+        'less'
         'styl'
       ]
       port: 35729
 
-  js: (filepath) -> 'cat'
-
-  jade: (filepath) ->
-    conf = grunt.config('jade.develop.files')[0]
-    conf.src = filepath
-    grunt.config('jade.develop.files', [conf])
-    'jade:develop'
-
-  styl: (filepath) ->
-    conf = grunt.config('stylus.develop.files')[0]
-    conf.src = filepath
-    grunt.config('stylus.develop.files', [conf])
-    'stylus:develop'
+  js:   (filepath) -> 'newer:copy:develop'
+  jade: (filepath) -> 'newer:jade:develop'
+  less: (filepath) -> 'newer:less:develop'
+  styl: (filepath) -> 'newer:stylus:develop'

@@ -6,7 +6,7 @@ module.exports =
 
   develop:
     files: [
-      dest: 'public/'
+      dest: 'public/css/'
       expand: true
       ext: '.css'
       rename: (dest, matchSrcPath, options) ->
@@ -18,7 +18,7 @@ module.exports =
 
   release:
     files: [
-      dest: 'public/'
+      dest: 'public/css/'
       expand: true
       ext: '.css'
       rename: (dest, matchSrcPath, options) ->

@@ -2,6 +2,7 @@ module.exports =
 
   compile: [
     'jade:develop'
+    'less:develop'
     'stylus:develop'
   ]
 
