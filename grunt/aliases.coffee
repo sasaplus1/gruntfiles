@@ -6,12 +6,20 @@ module.exports =
     'stylus:develop'
   ]
 
-  cat: [
-    'concat:normal-wrap'
-    'uglify:develop'
+  develop: [
+    'connect'
+    'esteWatch'
   ]
 
-  min: [
+  install: [
+    'bower'
+  ]
+
+  release: [
+    'clean'
+    'jade:release'
+    'less:release'
+    'stylus:release'
     'concat:normal-wrap'
     'uglify:release'
   ]
@@ -20,16 +28,6 @@ module.exports =
     'connect:keepalive'
   ]
 
-  watch: [
-    'connect'
-    'esteWatch'
-  ]
-
-  install: [
-    'bower:init'
-  ]
-
   test: [
-    'bower:test'
     'testem:run:main'
   ]
