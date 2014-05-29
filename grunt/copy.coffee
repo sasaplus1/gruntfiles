@@ -1,16 +1,13 @@
-path = require 'path'
-
 module.exports =
 
   # https://github.com/gruntjs/grunt-contrib-copy
 
   develop:
     files: [
+      cwd: 'source/'
       dest: 'public/js/'
       expand: true
-      rename: (dest, matchSrcPath, options) ->
-        path.join(dest, matchSrcPath.replace('source/', ''))
-      src: 'source/**/*.js'
+      src: '**/*.js'
     ]
 
   release:

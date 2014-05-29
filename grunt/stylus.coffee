@@ -1,27 +1,23 @@
-path = require 'path'
-
 module.exports =
 
   # https://github.com/gruntjs/grunt-contrib-stylus
 
   develop:
     files: [
+      cwd: 'source/'
       dest: 'public/css/'
       expand: true
       ext: '.css'
-      rename: (dest, matchSrcPath, options) ->
-        path.join(dest, matchSrcPath.replace('source/', ''))
-      src: 'source/**/!(_)*.styl'
+      src: '**/!(_)*.styl'
     ]
     options:
       compress: false
 
   release:
     files: [
+      cwd: 'source/'
       dest: 'public/css/'
       expand: true
       ext: '.css'
-      rename: (dest, matchSrcPath, options) ->
-        path.join(dest, matchSrcPath.replace('source/', ''))
-      src: 'source/**/!(_)*.styl'
+      src: '**/!(_)*.styl'
     ]
