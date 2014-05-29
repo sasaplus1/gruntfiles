@@ -1,6 +1,6 @@
 module.exports =
 
-  develop:
+  main:
     src: [
       'public/**/*'
     ]
