@@ -9,14 +9,14 @@ module.exports =
     livereload:
       enabled: true
       extensions: [
-        'js'
         'jade'
+        'js'
         'less'
         'styl'
       ]
       port: 35729
 
-  js:   (filepath) -> 'newer:copy:develop'
   jade: (filepath) -> 'newer:jade:develop'
+  js:   (filepath) -> 'newer:copy:develop'
   less: (filepath) -> 'newer:less:develop'
   styl: (filepath) -> 'newer:stylus:develop'
