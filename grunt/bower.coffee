@@ -2,7 +2,7 @@ module.exports =
 
   # https://github.com/yatskevich/grunt-bower-task
 
-  init:
+  main:
     options:
       bowerOptions:
         production: true
