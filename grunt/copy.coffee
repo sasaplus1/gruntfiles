@@ -9,7 +9,3 @@ module.exports =
       expand: true
       src: '**/*.js'
     ]
-
-  release:
-    files: [
-    ]
