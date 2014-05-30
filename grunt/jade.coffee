@@ -12,6 +12,8 @@ module.exports =
     ]
     options:
       pretty: true
+      data:
+        env: 'development'
 
   release:
     files: [
@@ -21,3 +23,6 @@ module.exports =
       ext: '.html'
       src: '**/!(_)*.jade'
     ]
+    options:
+      data:
+        env: 'production'
