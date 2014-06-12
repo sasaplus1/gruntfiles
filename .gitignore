@@ -1,9 +1,16 @@
+# node.js
 npm-debug.log
 bower_components/
 node_modules/
+
+# destination/public dir
 public/*
-source/*
-test/*
 !public/.gitkeep
+
+# source dir
+source/*
 !source/.gitkeep
+
+# unit tests dir
+test/*
 !test/index.html
