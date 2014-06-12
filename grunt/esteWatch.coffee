@@ -4,7 +4,7 @@ module.exports =
 
   options:
     dirs: [
-      'source/**/'
+      '<%= conf.src %>**/'
     ]
     livereload:
       enabled: true

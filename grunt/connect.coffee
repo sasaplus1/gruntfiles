@@ -4,6 +4,6 @@ module.exports =
 
   server:
     options:
-      base: 'public/'
+      base: '<%= conf.dest %>'
       hostname: '*'
       livereload: true

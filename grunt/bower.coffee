@@ -7,7 +7,7 @@ module.exports =
       bowerOptions:
         production: true
       layout: 'byComponent'
-      targetDir: 'public/lib/'
+      targetDir: '<%= conf.dest %>lib/'
 
   test:
     options:

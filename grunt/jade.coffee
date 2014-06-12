@@ -4,8 +4,8 @@ module.exports =
 
   develop:
     files: [
-      cwd: 'source/'
-      dest: 'public/'
+      cwd: '<%= conf.src %>'
+      dest: '<%= conf.dest %>'
       expand: true
       ext: '.html'
       src: '**/!(_)*.jade'
@@ -17,8 +17,8 @@ module.exports =
 
   release:
     files: [
-      cwd: 'source/'
-      dest: 'public/'
+      cwd: '<%= conf.src %>'
+      dest: '<%= conf.dest %>'
       expand: true
       ext: '.html'
       src: '**/!(_)*.jade'

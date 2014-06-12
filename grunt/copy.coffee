@@ -4,8 +4,8 @@ module.exports =
 
   develop:
     files: [
-      cwd: 'source/'
-      dest: 'public/js/'
+      cwd: '<%= conf.src %>'
+      dest: '<%= conf.dest %>js/'
       expand: true
       src: '**/*.js'
     ]

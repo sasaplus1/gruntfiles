@@ -1,1 +1,6 @@
-module.exports = (grunt) -> require('load-grunt-config') grunt
+module.exports = (grunt) -> require('load-grunt-config') grunt,
+
+  config:
+    conf:
+      dest: 'public/'
+      src: 'source/'
