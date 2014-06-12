@@ -12,6 +12,7 @@ module.exports =
         'jade'
         'js'
         'less'
+        'scss'
         'styl'
       ]
       port: 35729
@@ -19,4 +20,5 @@ module.exports =
   jade: (filepath) -> 'newer:jade:develop'
   js:   (filepath) -> 'newer:copy:develop'
   less: (filepath) -> 'newer:less:develop'
+  scss: (filepath) -> 'newer:sass:develop'
   styl: (filepath) -> 'newer:stylus:develop'

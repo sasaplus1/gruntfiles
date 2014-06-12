@@ -3,6 +3,7 @@ module.exports =
   compile: [
     'jade:develop'
     'less:develop'
+    'sass:develop'
     'stylus:develop'
   ]
 
@@ -19,6 +20,7 @@ module.exports =
     'clean'
     'jade:release'
     'less:release'
+    'sass:release'
     'stylus:release'
     'concat:normal-wrap'
     'uglify:release'
