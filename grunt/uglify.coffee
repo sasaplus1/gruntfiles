@@ -9,6 +9,7 @@ module.exports =
       ]
     options:
       beautify: true
+      mangle: false
       sourceMap: true
 
   release:
@@ -18,4 +19,3 @@ module.exports =
       ]
     options:
       compress: true
-      mangle: true
