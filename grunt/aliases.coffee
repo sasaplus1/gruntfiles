@@ -5,6 +5,7 @@ module.exports =
     'less:develop'
     'sass:develop'
     'stylus:develop'
+    'copy:develop'
   ]
 
   develop: [
