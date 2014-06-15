@@ -12,4 +12,4 @@ module.exports =
   test:
     options:
       layout: 'byComponent'
-      targetDir: 'test/lib/'
+      targetDir: '<%= conf.test %>lib/'
