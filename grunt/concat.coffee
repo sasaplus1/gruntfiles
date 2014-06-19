@@ -4,8 +4,8 @@ module.exports =
 
   'normal-wrap':
     files:
-      '<%= conf.dest %>index.cat.js': [
-        '<%= conf.src %>**/*.js'
+      '<%= conf.dest %>/index.cat.js': [
+        '<%= conf.src %>/**/*.js'
       ]
     options:
       banner:
@@ -20,8 +20,8 @@ module.exports =
 
   'strict-wrap':
     files:
-      '<%= conf.dest %>index.cat.js': [
-        '<%= conf.src %>**/*.js'
+      '<%= conf.dest %>/index.cat.js': [
+        '<%= conf.src %>/**/*.js'
       ]
     options:
       banner:

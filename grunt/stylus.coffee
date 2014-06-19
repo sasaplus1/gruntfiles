@@ -5,7 +5,7 @@ module.exports =
   develop:
     files: [
       cwd: '<%= conf.src %>'
-      dest: '<%= conf.dest %>css/'
+      dest: '<%= conf.dest %>/css'
       expand: true
       ext: '.css'
       src: '**/!(_)*.styl'
@@ -16,7 +16,7 @@ module.exports =
   release:
     files: [
       cwd: '<%= conf.src %>'
-      dest: '<%= conf.dest %>css/'
+      dest: '<%= conf.dest %>/css'
       expand: true
       ext: '.css'
       src: '**/!(_)*.styl'

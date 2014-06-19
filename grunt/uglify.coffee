@@ -4,8 +4,8 @@ module.exports =
 
   develop:
     files:
-      '<%= conf.dest %>index.min.js': [
-        '<%= conf.dest %>index.cat.js'
+      '<%= conf.dest %>/index.min.js': [
+        '<%= conf.dest %>/index.cat.js'
       ]
     options:
       beautify: true
@@ -14,8 +14,8 @@ module.exports =
 
   release:
     files:
-      '<%= conf.dest %>index.min.js': [
-        '<%= conf.dest %>index.cat.js'
+      '<%= conf.dest %>/index.min.js': [
+        '<%= conf.dest %>/index.cat.js'
       ]
     options:
       compress: true

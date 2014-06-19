@@ -4,5 +4,5 @@ module.exports =
 
   main:
     src: [
-      '<%= conf.dest %>**/*'
+      '<%= conf.dest %>/**/*'
     ]

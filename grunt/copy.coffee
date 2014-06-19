@@ -5,7 +5,7 @@ module.exports =
   develop:
     files: [
       cwd: '<%= conf.src %>'
-      dest: '<%= conf.dest %>js/'
+      dest: '<%= conf.dest %>/js'
       expand: true
       src: '**/*.js'
     ]
